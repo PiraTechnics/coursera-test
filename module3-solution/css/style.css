@@ -1,10 +1,36 @@
 /*** Header Styles ***/
 
+#navbar-expanded {
+    box-shadow: 2px 2px black;
+    background-color: aliceblue;
+}
+
+span.menu-row {
+    border: 1px solid black;
+    border-right: 2px solid black;
+    }
+
 /*** Main Content Styles ***/
 
+#menu-grid {
+    background-color: beige;
+}
 
-/*** Medium and larger Devices - Desktop (md) ***/
+/*** Note -- Breakpoints are set to correspond with Bootstrap 5
+Which may differ from Bootstrap 3, which was the version used in lecture.
+Using the latest stable release seemed the best course of action ***/
 
-/*** Small Devices - Tablet (sm) ***/
+/*** Small, Medium and larger Devices - Desktop & Tablet ***/
+@media (min-width: 576px) {
+    #menu-grid {
+        margin: auto;
+    }
+}
 
 /*** Extra-Small Devices - Mobile (xs) ***/
+@media (max-width: 575px) {
+    #menu-grid {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

@@ -6,48 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <!--<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type=
-        'text/css'> -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <nav id="header-nav" class="navbar bg-secondary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><h1>Food, LLC</h1></a>
-                <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="bg-dark p-4">
-                      <h5 class="text-white h4">Collapsed content</h5>
-                      <span class="text-muted">Toggleable via the navbar brand.</span>
-                    </div>
-                </div>-->
-            </div>
+                <a class="navbar-brand" href="#">
+                    <h1>Food, LLC</h1>
+                </a>
+                <nav class="navbar d-sm-none">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-expanded" aria-controls="navbar-expanded" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav> <!-- End Navbar Menu Button -->
+            </div> <!-- End Header Container -->
         </nav>
+
+        <div class="collapse navbar-collapse d-sm-none" id="navbar-expanded">
+            <ul class="nav flex-column">
+                <span class="menu-row text-center fs-5">Chicken</span>
+                <span class="menu-row text-center fs-5">Beef</span>
+                <span class="menu-row text-center fs-5">Sushi</span>
+            </ul>
+        </div>
+
     </header>
 
-    <!-- All our cool bootstrappable code is gonna go here -->
-
-    <div id="main-content" class="container">
-        <h2 class="text-center mt-3">Our Menu</h2>
-        <div class="row">
-            <section class="col-desktop-4 col-tablet-6">
-                <div class="content">
-                    <div class="title" id="title1">Chicken</div>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet libero
-                        ligula, eget scelerisque ante malesuada in. Mauris nec malesuada turpis, at consequat enim.
-                        Vestibulum id sagittis felis. Vivamus mollis velit a erat convallis mattis. Aenean massa erat,
-                        pulvinar nec purus vitae, aliquet sodales nunc. Aenean aliquet scelerisque eros. Etiam tempor
-                        neque neque, nec dapibus dolor facilisis a. Ut sollicitudin vulputate tellus, vitae porta risus
-                        congue eget. Vivamus leo nisl, condimentum et ligula id, molestie eleifend diam. Fusce ac erat
-                        in nisi eleifend facilisis at quis leo.</p>
-                </div>
-            </section>
-        </div>
+    <h2 class="text-center mt-3 mb-4">Our Menu</h2>
+    
+    <div class="container-fluid">
+        <div id="menu-grid" class="row col-xs-12">
+            <div class="menu-item">
+                <div class="fs-5 fw-semibold text-center mt-1 mb-1" id="title1">Chicken</div>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Egestas quis ipsum suspendisse ultrices gravida. Sit amet nisl purus in mollis nunc sed id semper. Convallis aenean et tortor at risus viverra adipiscing at in. Habitasse platea dictumst quisque sagittis purus sit. Erat nam at lectus urna duis convallis convallis tellus. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Maecenas accumsan lacus vel facilisis volutpat. Eu sem integer vitae justo eget magna fermentum iaculis eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Mauris nunc congue nisi vitae suscipit. Elit ut aliquam purus sit amet luctus. Adipiscing vitae proin sagittis nisl rhoncus. Diam vel quam elementum pulvinar etiam non quam lacus. Mus mauris vitae ultricies leo. Nunc eget lorem dolor sed viverra ipsum. Sed risus ultricies tristique nulla aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Egestas quis ipsum suspendisse ultrices gravida. Sit amet nisl purus in mollis nunc sed id semper. Convallis aenean et tortor at risus viverra adipiscing at in. Habitasse platea dictumst quisque sagittis purus sit. Erat nam at lectus urna duis convallis convallis tellus. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Maecenas accumsan lacus vel facilisis volutpat. Eu sem integer vitae justo eget magna fermentum iaculis eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Mauris nunc congue nisi vitae suscipit. Elit ut aliquam purus sit amet luctus. Adipiscing vitae proin sagittis nisl rhoncus. Diam vel quam elementum pulvinar etiam non quam lacus. Mus mauris vitae ultricies leo. Nunc eget lorem dolor sed viverra ipsum. Sed risus ultricies tristique nulla aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Egestas quis ipsum suspendisse ultrices gravida. Sit amet nisl purus in mollis nunc sed id semper. Convallis aenean et tortor at risus viverra adipiscing at in. Habitasse platea dictumst quisque sagittis purus sit. Erat nam at lectus urna duis convallis convallis tellus. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Maecenas accumsan lacus vel facilisis volutpat. Eu sem integer vitae justo eget magna fermentum iaculis eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Mauris nunc congue nisi vitae suscipit. Elit ut aliquam purus sit amet luctus. Adipiscing vitae proin sagittis nisl rhoncus. Diam vel quam elementum pulvinar etiam non quam lacus. Mus mauris vitae ultricies leo. Nunc eget lorem dolor sed viverra ipsum. Sed risus ultricies tristique nulla aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Egestas quis ipsum suspendisse ultrices gravida. Sit amet nisl purus in mollis nunc sed id semper. Convallis aenean et tortor at risus viverra adipiscing at in. Habitasse platea dictumst quisque sagittis purus sit. Erat nam at lectus urna duis convallis convallis tellus. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Maecenas accumsan lacus vel facilisis volutpat. Eu sem integer vitae justo eget magna fermentum iaculis eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Mauris nunc congue nisi vitae suscipit. Elit ut aliquam purus sit amet luctus. Adipiscing vitae proin sagittis nisl rhoncus. Diam vel quam elementum pulvinar etiam non quam lacus. Mus mauris vitae ultricies leo. Nunc eget lorem dolor sed viverra ipsum. Sed risus ultricies tristique nulla aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Egestas quis ipsum suspendisse ultrices gravida. Sit amet nisl purus in mollis nunc sed id semper. Convallis aenean et tortor at risus viverra adipiscing at in. Habitasse platea dictumst quisque sagittis purus sit. Erat nam at lectus urna duis convallis convallis tellus. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Maecenas accumsan lacus vel facilisis volutpat. Eu sem integer vitae justo eget magna fermentum iaculis eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Mauris nunc congue nisi vitae suscipit. Elit ut aliquam purus sit amet luctus. Adipiscing vitae proin sagittis nisl rhoncus. Diam vel quam elementum pulvinar etiam non quam lacus. Mus mauris vitae ultricies leo. Nunc eget lorem dolor sed viverra ipsum. Sed risus ultricies tristique nulla aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Egestas quis ipsum suspendisse ultrices gravida. Sit amet nisl purus in mollis nunc sed id semper. Convallis aenean et tortor at risus viverra adipiscing at in. Habitasse platea dictumst quisque sagittis purus sit. Erat nam at lectus urna duis convallis convallis tellus. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Maecenas accumsan lacus vel facilisis volutpat. Eu sem integer vitae justo eget magna fermentum iaculis eu. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Mauris nunc congue nisi vitae suscipit. Elit ut aliquam purus sit amet luctus. Adipiscing vitae proin sagittis nisl rhoncus. Diam vel quam elementum pulvinar etiam non quam lacus. Mus mauris vitae ultricies leo. Nunc eget lorem dolor sed viverra ipsum. Sed risus ultricies tristique nulla aliquet. </p>
+            </div> <!-- End of menu-item-->
+        </div> <!-- End of row -->
     </div>
 
     <!--Bootstrap js dependency - Vanilla JS in ver 5.2 -->
