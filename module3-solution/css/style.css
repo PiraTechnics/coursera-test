@@ -16,19 +16,15 @@ span.menu-row {
     background-color: beige;
 }
 
-/*** Note -- Breakpoints are set to correspond with Bootstrap 5
-Which may differ from Bootstrap 3, which was the version used in lecture.
-Using the latest stable release seemed the best course of action ***/
-
-/*** Small, Medium and larger Devices - Desktop & Tablet ***/
-@media (min-width: 576px) {
+/*** Desktop & Tablet (sm in BS3, md in BS5 ***/
+@media (min-width: 768px) {
     #menu-grid {
         margin: auto;
     }
 }
 
-/*** Extra-Small Devices - Mobile (xs) ***/
-@media (max-width: 575px) {
+/*** Mobile (xs in BS3, sm in BS5) ***/
+@media (max-width: 767px) {
     #menu-grid {
         margin-left: 10%;
         margin-right: 10%;
